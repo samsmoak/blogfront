@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-	baseURL: `https://arcadeserver.herokuapp.com/`,
+	baseURL: `https://arcadeserver.herokuapp.com/api/`,
 	withCredentials: false,
 	headers: {
 		"Access-Control-Allow-Origin": "*",
